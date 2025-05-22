@@ -1,9 +1,10 @@
 import Header from './components/Header'
-
+import Filter from './components/Filter'
 function App() {
   return (
-    <div className="bg-cream">
+    <div>
       <Header />
+      <Filter />
     </div>
   )
 }
