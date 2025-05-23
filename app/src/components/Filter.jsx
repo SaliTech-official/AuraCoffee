@@ -15,7 +15,7 @@ import PancakeActiveIC from '../../public/logos/PancakesActive.svg'
 import CakeIC from '../../public/logos/Cakes.svg'
 import CakeActiveIC from '../../public/logos/CakesActive.svg'
 
-export default function Filter() {
+export default function Filter({ onFilterChange }) {
   const [filters, setFilters] = useState([
     {
       id: 1,
@@ -69,10 +69,15 @@ export default function Filter() {
   ])
 
   const handleFilterClick = (filterId) => {
-    setFilters(filters.map(filter => ({
+    const updatedFilters = filters.map(filter => ({
       ...filter,
       isActive: filter.id === filterId
-    })))
+    }))
+    setFilters(updatedFilters)
+    
+    // پیدا کردن فیلتر فعال و ارسال آن به کامپوننت والد
+    const activeFilter = updatedFilters.find(filter => filter.isActive)
+    onFilterChange(activeFilter.title)
   }
 
   return (

@@ -19,7 +19,7 @@ export default function FilterBox({ icon, activeIcon, title, isActive, onClick }
         alt="Icon" 
         className='w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 transition-all duration-300'
       />
-      <span className='text-[10px] sm:text-xs md:text-sm font-medium whitespace-nowrap'>{title}</span>
+      <span className='text-[10px] sm:text-xs md:text-sm font-heading font-medium whitespace-nowrap'>{title}</span>
     </div>
   )
 }
