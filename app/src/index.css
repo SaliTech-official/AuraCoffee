@@ -23,6 +23,33 @@
   }
 }
 
+@keyframes fillUp {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes steam {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.3;
+  }
+}
+
 .coffee-bean {
   opacity: 0;
   animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
