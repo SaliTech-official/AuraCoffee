@@ -85,7 +85,3 @@ This project is licensed under the CC BY-NC License.
 
 For questions, contact [salitech.2008@gmail.com](mailto:salitech.2008@gmail.com)
 ```
-
----
-
-آیا می‌خواهی این فایل را برایت دانلود یا در قالب فایل متنی برایت آماده کنم؟
