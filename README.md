@@ -26,8 +26,7 @@ A modern and responsive digital menu for cafes, built with React and Tailwind CS
 ## Project Screenshots
 
 ![Desktop](./app/public/previews/DesktopPreview.png)
-![Tablet](./app/public/previews/TabletPreview.png)
-![Mobile](./app/public/previews/MobilePreview.png)
+| ![Tablet](./app/public/previews/TabletPreview.png) | ![Mobile](./app/public/previews/MobilePreview.png) |
 
 ---
 
