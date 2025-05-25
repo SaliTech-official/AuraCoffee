@@ -6,8 +6,6 @@ import ColdDrinkIC from '../../public/logos/ColdDrinks.svg'
 import ColdDrinkActiveIC from '../../public/logos/ColdDrinksActive.svg'
 import IceCreamIC from '../../public/logos/IceCream.svg'
 import IceCreamActiveIC from '../../public/logos/IceCreamActive.svg'
-import IcePackIC from '../../public/logos/IcePacks.svg'
-import IcePackActiveIC from '../../public/logos/IcePacksActive.svg'
 import ShakesIC from '../../public/logos/Shakes.svg'
 import ShakesActiveIC from '../../public/logos/ShakesActive.svg'
 import PancakeIC from '../../public/logos/Pancakes.svg'
@@ -40,27 +38,20 @@ export default function Filter({ onFilterChange }) {
     },
     {
       id: 4,
-      title: "Ice Packs",
-      icon: IcePackIC,
-      activeIcon: IcePackActiveIC,
-      isActive: false
-    },
-    {
-      id: 5,
       title: "Shakes",
       icon: ShakesIC,
       activeIcon: ShakesActiveIC,
       isActive: false
     },
     {
-      id: 6,
+      id: 5,
       title: "Pancakes",
       icon: PancakeIC,
       activeIcon: PancakeActiveIC,
       isActive: false
     },
     {
-      id: 7,
+      id: 6,
       title: "Cakes",
       icon: CakeIC,
       activeIcon: CakeActiveIC,
@@ -81,7 +72,7 @@ export default function Filter({ onFilterChange }) {
   }
 
   return (
-    <div className='w-full px-4 md:px-6 lg:px-8'>
+    <div className='w-full px-4 md:px-6 lg:px-8 mt-[60px] md:mt-[80px] lg:mt-[100px]'>
       <div className='w-full flex items-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 py-4 md:py-6 overflow-x-auto scrollbar-hide touch-pan-x snap-x snap-mandatory'>
         {filters.map((filter) => (
           <div key={filter.id} className='snap-start flex-shrink-0'>

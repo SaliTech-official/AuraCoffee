@@ -329,6 +329,120 @@ export default function Products({ activeFilter = "Hot Drinks" }) {
         price: "3.20$",
         category: "Shakes",
         image: "/products/PeanutButterShake.jpg"
+    },
+    // Pancakes Products
+    {
+        id: 41,
+        title: "Classic Pancake",
+        description: "Flour, eggs, milk, baking powder",
+        price: "4.00$",
+        category: "Pancakes",
+        image: "/products/ClassicPancake.jpg"
+    },
+    {
+        id: 42,
+        title: "Chocolate Pancake",
+        description: "Flour, cocoa powder, eggs, milk",
+        price: "4.50$",
+        category: "Pancakes",
+        image: "/products/ChocolatePancake.jpg"
+    },
+    {
+        id: 43,
+        title: "Banana Pancake",
+        description: "Flour, bananas, eggs, milk",
+        price: "4.50$",
+        category: "Pancakes",
+        image: "/products/BananaPancake.jpg"
+    },
+    {
+        id: 44,
+        title: "Blueberry Pancake",
+        description: "Flour, blueberries, eggs, milk",
+        price: "4.50$",
+        category: "Pancakes",
+        image: "/products/BlueberryPancake.jpg"
+    },
+    {
+        id: 45,
+        title: "Nutella Pancake",
+        description: "Flour, Nutella, eggs, milk",
+        price: "5.00$",
+        category: "Pancakes",
+        image: "/products/NutellaPancake.jpg"
+    },
+    {
+        id: 46,
+        title: "Strawberry Pancake",
+        description: "Flour, strawberries, eggs, milk",
+        price: "4.50$",
+        category: "Pancakes",
+        image: "/products/StrawberryPancake.jpg"
+    },
+    {
+        id: 47,
+        title: "Lemon Pancake",
+        description: "Flour, lemon zest, eggs, milk",
+        price: "4.50$",
+        category: "Pancakes",
+        image: "/products/LemonPancake.jpg"
+    },
+    // Cakes Products
+    {
+        id: 48,
+        title: "Chocolate Cake",
+        description: "Flour, cocoa powder, sugar, eggs, butter, baking powder",
+        price: "15.00$",
+        category: "Cakes",
+        image: "/products/ChocolateCake.jpg"
+    },
+    {
+        id: 49,
+        title: "Vanilla Cake",
+        description: "Flour, sugar, eggs, butter, vanilla extract, baking powder",
+        price: "14.00$",
+        category: "Cakes",
+        image: "/products/VanillaCake.jpg"
+    },
+    {
+        id: 50,
+        title: "Red Velvet",
+        description: "Flour, cocoa powder, buttermilk, vinegar, sugar, eggs, red food coloring",
+        price: "16.00$",
+        category: "Cakes",
+        image: "/products/RedVelvet.jpg"
+    },
+    {
+        id: 51,
+        title: "Carrot Cake",
+        description: "Flour, grated carrots, sugar, eggs, oil, cinnamon, baking powder",
+        price: "15.00$",
+        category: "Cakes",
+        image: "/products/CarrotCake.jpg"
+    },
+    {
+        id: 52,
+        title: "Cheesecake",
+        description: "Cream cheese, sugar, eggs, graham cracker crust, vanilla",
+        price: "17.00$",
+        category: "Cakes",
+        image: "/products/Cheesecake.jpg"
+    },
+    {
+        id: 53,
+        title: "Lemon Cake",
+        description: "Flour, sugar, eggs, butter, lemon zest, lemon juice",
+        price: "14.00$",
+        category: "Cakes",
+        image: "/products/LemonCake.jpg"
+    },
+    {
+        id: 54,
+        title: "Tiramisu Cake",
+        description: "Ladyfingers, mascarpone, coffee, cocoa powder, eggs, sugar",
+        price: "18.00$",
+        category: "Cakes",
+        image: "/products/TiramisuCake.jpg"
     }
   ]
 
