@@ -34,12 +34,13 @@ A modern and responsive digital menu for cafes, built with React and Tailwind CS
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/SaliTech-official/AuraCoffee.git
 ```
 
 2. Navigate to the project folder:
 ```bash
-cd your-repo-name
+cd AuraCoffee
+cd app
 ```
 
 3. Install dependencies:
