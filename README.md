@@ -19,7 +19,6 @@ A modern and responsive digital menu for cafes, built with React and Tailwind CS
 - React
 - Tailwind CSS
 - Vite
-- QR code scanning library (if used, specify here)
 - JavaScript (ES6+)
 
 ---
