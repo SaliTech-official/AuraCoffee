@@ -1,6 +1,6 @@
 # Digital Cafe Menu
 
-A modern and responsive digital menu for cafes, built with React and Tailwind CSS using Vite. This project allows customers to scan QR codes to access the menu, view detailed items with images, descriptions, and prices, providing a seamless contactless ordering experience.
+A modern and responsive digital menu for cafes, built with React and Tailwind CSS using Vite. This project allows customers to scan QR codes to access the menu, view detailed items with images, descriptions, and prices, providing a seamless contactless ordering experience
 
 ---
 
