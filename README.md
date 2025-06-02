@@ -83,7 +83,7 @@ Contributions are welcome! Please submit a pull request or open an issue for fea
 
 ## License
 
-This project is licensed under the CC BY-NC License
+This project is licensed under the CC BY-NC License.
 
 ---
 
