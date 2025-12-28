@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Filter onFilterChange={handleFilterChange} />
       <Products activeFilter={activeFilter} />
-      <GreenEmeraldSignature lang='en'/>
+      <GreenEmeraldSignature lang='en' link='https://instagram.com/greenemerald.studio/'/>
     </div>
   )
 }
